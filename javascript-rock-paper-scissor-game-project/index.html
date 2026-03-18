@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <script src="./rock-paper-scissor.js" defer></script>
+    <link rel="stylesheet" href="./rock-paper-scissors.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">✊ Rock Paper Scissors ✋</h1>
+
+      <div class="buttons">
+        <button class="move-button js-rock-button">
+          <img src="./rock-emoji.png" class="move-icon">
+        </button>
+
+        <button class="move-button js-paper-button">
+          <img src="./paper-emoji.png" class="move-icon">
+        </button>
+
+        <button class="move-button js-scissors-button">
+          <img src="./scissors-emoji.png" class="move-icon">
+        </button>
+      </div>
+
+      <p class="js-result result"></p>
+      <p class="js-moves moves"></p>
+      <p class="js-score score"></p>
+
+    <div class="actions">
+      <button class="reset-score-button js-reset-score-button">
+        Reset Score
+      </button>
+
+      <button class="auto-play-button js-auto-play-button">
+        Auto Play
+      </button>
+    </div>
+
+      <!-- ⭐ Confirmation Box -->
+      <div class="confirm-box js-confirm-box hidden">
+        <p>Are you sure you want to reset the score?</p>
+        <div class="confirm-actions">
+          <button class="confirm-yes js-confirm-yes">Yes</button>
+          <button class="confirm-no js-confirm-no">No</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

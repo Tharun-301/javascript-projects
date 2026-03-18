@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <div class="app-card">
+
+      <h1 class="title">✨ Task Manager</h1>
+      <p class="subtitle">Stay organized and productive</p>
+
+      <div class="todo-input-grid">
+        <input type="text"
+          class="js-name-input name-input"
+          placeholder="Enter your task…">
+
+        <input type="date"
+          class="js-due-date-input due-date-input">
+
+        <button class="js-add-todo-button add-todo-button">
+          Add Task
+        </button>
+      </div>
+
+      <div class="js-todo-list todo-grid"></div>
+
+    </div>
+  </div>
+
+  <script src="todo_list.js"></script>
+</body>
+</html>

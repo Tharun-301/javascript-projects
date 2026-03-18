@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+  <script src="calculator.js" defer></script>
+</head>
+
+<body>
+  <div class="calculator">
+    <h1 class="title">🧮 Calculator</h1>
+
+    <div class="display js-display"></div>
+
+    <div class="buttons">
+      <button onclick="updateCalculation('7')">7</button>
+      <button onclick="updateCalculation('8')">8</button>
+      <button onclick="updateCalculation('9')">9</button>
+      <button class="operator" onclick="updateCalculation(' / ')">÷</button>
+
+      <button onclick="updateCalculation('4')">4</button>
+      <button onclick="updateCalculation('5')">5</button>
+      <button onclick="updateCalculation('6')">6</button>
+      <button class="operator" onclick="updateCalculation(' * ')">×</button>
+
+      <button onclick="updateCalculation('1')">1</button>
+      <button onclick="updateCalculation('2')">2</button>
+      <button onclick="updateCalculation('3')">3</button>
+      <button class="operator" onclick="updateCalculation(' - ')">−</button>
+
+      <button onclick="updateCalculation('0')">0</button>
+      <button onclick="updateCalculation('.')">.</button>
+      <button class="equals" onclick="calculateResult()">=</button>
+      <button class="operator" onclick="updateCalculation(' + ')">+</button>
+    </div>
+
+    <button class="clear" onclick="clearCalculation()">Clear</button>
+  </div>
+</body>
+</html>

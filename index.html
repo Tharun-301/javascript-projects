@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Projects</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      opacity: 0.8;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+   .card {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .card:hover {
+      transform: translateY(-12px) scale(1.03);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-bottom: 15px;
+      opacity: 0.8;
+    }
+
+    .card a {
+      text-decoration: none;
+      background: #ff9800;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #ffb74d;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚀 My JavaScript Projects</h1>
+    <p>Click any project to explore</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>🛒 Add to Cart</h2>
+      <p>E-commerce cart functionality</p>
+      <a href="./javascript-add-to-cart-project/index.html" target="_blank">Open</a>
+    </div>
+
+    <div class="card">
+      <h2>🧮 Calculator</h2>
+      <p>Basic arithmetic calculator</p>
+      <a href="./javascript-calculator-project/index.html" target="_blank">Open</a>
+    </div>
+
+    <div class="card">
+      <h2>🪙 Coin Flip</h2>
+      <p>Random coin toss game</p>
+      <a href="./javascript-coin-flip-game-project/index.html" target="_blank">Open</a>
+    </div>
+
+    <div class="card">
+      <h2>✊ Rock Paper Scissors</h2>
+      <p>Play against computer</p>
+      <a href="./javascript-rock-paper-scissor-game-project/index.html" target="_blank">Open</a>
+    </div>
+
+    <div class="card">
+      <h2>📝 Todo List</h2>
+      <p>Task management app</p>
+      <a href="./javascript-todo-list-project/index.html" target="_blank">Open</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Tharun Sathunuru</p>
+  </footer>
+
+</body>
+</html>
